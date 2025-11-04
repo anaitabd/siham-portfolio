@@ -1,35 +1,74 @@
-# AstroZen - Personal Portfolio Website
+# Siham Demami - Professional Portfolio
 
-AstroZen is a minimalist, accessible and responsive portfolio template for your personal portfolio website. It is built with Astro and TailwindCSS.
+A modern, professional portfolio website showcasing expertise in Data Science, Machine Learning, and Web Development. Built with Next.js 14, TypeScript, TailwindCSS, and Framer Motion.
 
-![zen-og](https://github.com/user-attachments/assets/7a72aaae-6652-4cd0-becc-8e6a3c224993)
+## ✨ Features
 
-> [!NOTE]
-> The information contained in this template, including names, images, and content, is entirely fictitious and is intended solely to give the design a realistic appearance. Any coincidence with real-life people, events, or situations is purely coincidental. It is recommended that you replace this information with your own information.
+- **Dark/Light Mode Toggle** - Seamless theme switching
+- **Smooth Animations** - Framer Motion powered transitions
+- **Responsive Design** - Mobile-first approach
+- **Hero Section** - "Turning Data into Intelligent Web Experiences"
+- **Skills Section** - Categorized skill cards
+- **Experience Timeline** - Animated career journey with metrics
+- **Project Filtering** - Filter by AI, Data Science, Web
+- **Contact Form** - Interactive form with social links
+- **SEO Optimized** - Meta tags, Open Graph, sitemap
 
-## 🔥 Features
+## 🛠️ Tech Stack
 
-- [x] Minimalist design. clean and simple
-- [x] Mobile-first responsive layout
-- [x] SEO-friendly and accessible
-- [x] Easy to customize with a single configuration file
-
-## ✅ Lighthouse Score
-
-![performance](https://github.com/user-attachments/assets/4f95e2ca-03f9-4996-9e34-dcd179194c58)
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **Styling**: TailwindCSS 3
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Theme**: next-themes
+- **Deployment**: Vercel
 
 ## 🚀 Getting Started
 
-Clone this repository to your local machine using Git.
+```bash
+# Install dependencies
+npm install
 
-```scheme
-git clone https://github.com/immois/astro-zen.git
-cd astro-zen
+# Start development server
+npm run dev
 ```
 
-| Command        | Action                                       |
-| :------------- | :------------------------------------------- |
-| `pnpm install` | Installs dependencies                        |
-| `pnpm dev`     | Starts local dev server at `localhost:4321`  |
-| `pnpm build`   | Build your production site to `./dist/`      |
-| `pnpm preview` | Preview your build locally, before deploying |
+Visit `http://localhost:3000`
+
+### Available Commands
+
+| Command          | Description                         |
+| :--------------- | :---------------------------------- |
+| `npm run dev`    | Start dev server                    |
+| `npm run build`  | Build for production                |
+| `npm start`      | Preview production build            |
+| `npm run lint`   | Run ESLint                          |
+
+## 📝 Content Configuration
+
+All content is in `config/site.ts` for easy customization.
+
+## 🌐 Deployment
+
+Deploy to Vercel:
+
+```bash
+npm run build
+vercel deploy --prod
+```
+
+Or use the Vercel button:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/anaitabd/siham-portfolio)
+
+## 📬 Contact
+
+**Siham Demami**
+- Email: siham.demami1@gmail.com
+- LinkedIn: [linkedin.com/in/sihamdemami](https://linkedin.com/in/sihamdemami)
+- GitHub: [github.com/sihamdemami](https://github.com/sihamdemami)
+
+---
+
+Built with ❤️ using Next.js 14, TypeScript, TailwindCSS, and Framer Motion
